@@ -6,7 +6,7 @@ function guessinggame {
 	echo "               Starting Guessing Game"
 	echo "#########################---######################"
 
-	number=`find -type d | wc -l`
+	number=`ls -1 | wc -l`
 	guess=0
 
 	while [[ $guess -ne $number ]]
