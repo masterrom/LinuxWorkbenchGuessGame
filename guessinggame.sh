@@ -4,6 +4,7 @@
 function guessinggame {
 
 	echo "               Starting Guessing Game"
+	echo "     Guess the number of files in this directory"
 	echo "#########################---######################"
 
 	number=`ls -1 | wc -l`
